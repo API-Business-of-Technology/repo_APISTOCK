@@ -54,14 +54,11 @@
     width: 15rem;
 }
 
-
 .Form #button:hover{
 
     background-color: rgb(95, 95, 225);
     color:black;
 }
-
-
 
 .Form .boite .input{
 
