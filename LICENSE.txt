@@ -1,0 +1,13 @@
+UNLICENSED SOFTWARE NOTICE
+
+This software is UNLICENSED. No permission is granted to use, copy, modify,
+merge, publish, distribute, sublicense, or sell copies of this software,
+whether in whole or in part, without explicit written authorization from
+the author.
+
+All rights are reserved. Unauthorized use of this software, including but
+not limited to reverse engineering, decompiling, or attempting to derive
+the source code, structure, or design, is strictly prohibited.
+
+This software is provided "AS IS" without any warranty of any kind, express
+or implied, including but not limited to warranties of merchantability,
