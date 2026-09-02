@@ -1,0 +1,11 @@
+
+.containersplash{
+
+    display: flex;
+    flex-direction: column;
+    background-image: url("/imagesplash.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+}
