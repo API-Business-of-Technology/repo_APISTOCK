@@ -31,12 +31,6 @@
     "**/*.mts"
   ],
   "exclude": ["node_modules"],
-  
-  "references": [
-  { "path": "./tsconfig.jest.json" }
-]
 
- 
+  "references": [{ "path": "./tsconfig.jest.json" }]
 }
-
-

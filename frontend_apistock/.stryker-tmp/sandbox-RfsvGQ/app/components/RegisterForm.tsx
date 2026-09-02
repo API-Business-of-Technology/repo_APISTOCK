@@ -34,7 +34,17 @@ export default function RegisterForm1({ onSubmit, loading }: LoginFormProps) {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (!nom || !prenom || !adresse || !pays || !telephone || !email || !password || !confirmedPassword || !smsCode) {
+    if (
+      !nom ||
+      !prenom ||
+      !adresse ||
+      !pays ||
+      !telephone ||
+      !email ||
+      !password ||
+      !confirmedPassword ||
+      !smsCode
+    ) {
       setError("Les champs sont obligatoires");
       return;
     }
@@ -78,16 +88,14 @@ export default function RegisterForm1({ onSubmit, loading }: LoginFormProps) {
   const [isLoading, setIsLoading] = useState(false);
 
   function handleContinue(e: React.FormEvent<HTMLFormElement>) {
-  e.preventDefault();
-  setIsLoading(true);
-  router.push("/RegisterForm2");
-}
+    e.preventDefault();
+    setIsLoading(true);
+    router.push("/RegisterForm2");
+  }
 
   return (
     <form onSubmit={handleSubmit} className="Form1">
-      <h2>
-        Créer votre compte
-      </h2>
+      <h2>Créer votre compte</h2>
 
       {error && <p className="text-red-500 text-sm text-center">{error}</p>}
 
@@ -196,7 +204,6 @@ export default function RegisterForm1({ onSubmit, loading }: LoginFormProps) {
       <button type="submit" disabled={isLoading} id="button">
         {isLoading ? "Connexion en cours..." : "Continuer"}
       </button>
-
     </form>
   );
 }

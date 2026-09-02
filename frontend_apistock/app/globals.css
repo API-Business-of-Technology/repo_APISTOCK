@@ -5,7 +5,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -41,7 +42,10 @@ img {
 }
 
 /* 6. Evite layout shift (CLS) */
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   line-height: 1.4;
 }
 
@@ -66,4 +70,3 @@ a {
 section {
   overflow-x: hidden;
 }
-

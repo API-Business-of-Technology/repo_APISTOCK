@@ -10,16 +10,19 @@ type LoginData = {
   password: string;
 };
 
-
 export default function LoginPage() {
-  
-    const handleLogin = async ({ email, password}: LoginData) => {
-    console.log({ email, password});
+  const handleLogin = async ({ email, password }: LoginData) => {
+    console.log({ email, password });
   };
 
- return (
+  return (
     <div className="Afficher">
-      <Image src="/logo.png" alt="Logo de Ai security" width={150} height={150}/> 
+      <Image
+        src="/logo.png"
+        alt="Logo de Ai security"
+        width={150}
+        height={150}
+      />
       <SecureLoginForm onSubmit={handleLogin} />
     </div>
   );

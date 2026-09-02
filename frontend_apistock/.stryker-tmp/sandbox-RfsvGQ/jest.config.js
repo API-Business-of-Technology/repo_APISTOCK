@@ -6,19 +6,18 @@ module.exports = {
   setupFilesAfterEnv: ["<rootDir>/../jest.setup.js"],
 
   moduleNameMapper: {
-    "^@/(.*)$": "<rootDir>/$1"
+    "^@/(.*)$": "<rootDir>/$1",
   },
 
   transform: {
     "^.+\\.(ts|tsx)$": [
       "ts-jest",
-      { tsconfig: "<rootDir>/../tsconfig.jest.json" }
-    ]
+      { tsconfig: "<rootDir>/../tsconfig.jest.json" },
+    ],
   },
 
   testMatch: [
     "<rootDir>/../dossier_test/**/*.test.ts",
-    "<rootDir>/../dossier_test/**/*.test.tsx"
-  ]
+    "<rootDir>/../dossier_test/**/*.test.tsx",
+  ],
 };
-

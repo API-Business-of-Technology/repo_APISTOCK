@@ -1,13 +1,11 @@
 .Register {
-
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    justify-content: center;
-    background-image: url("/backimage.png");
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    padding: 1rem;
-
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  background-image: url("/backimage.png");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  padding: 1rem;
 }
