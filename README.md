@@ -112,8 +112,19 @@ La pipeline CI/CD d’APISTOCK est conçue pour assurer :
 | `deploy` | Déploiement automatisé |
 
 ### **Badges GitLab (à ajouter)**
+---[![Statut Pipeline](https://gitlab.com/apibusinesstechnology-group/repo_apistock/badges/main/pipeline.svg)](https://gitlab.com/apibusinesstechnology-group/repo_apistock/-/pipelines)
 
----
+[![Couverture](https://gitlab.com/apibusinesstechnology-group/repo_apistock/badges/main/coverage.svg)](https://gitlab.com/apibusinesstechnology-group/repo_apistock)
+
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=repo_apistock&metric=alert_status)](https://sonarcloud.io/dashboard?id=repo_apistock)
+
+![Release](https://img.shields.io/github/v/release/apibusinesstechnology-group/repo_apistock)
+
+# APISTOCK — Plateforme Professionnelle de Gestion de Stock
+
+[![Statut Pipeline](https://gitlab.com/apibusinesstechnology-group/repo_apistock/badges/main/pipeline.svg)](https://gitlab.com/apibusinesstechnology-group/repo_apistock/-/pipelines)
+[![Couverture](https://gitlab.com/apibusinesstechnology-group/repo_apistock/badges/main/coverage.svg)](https://gitlab.com/apibusinesstechnology-group/repo_apistock)
+![Release](https://img.shields.io/github/v/release/apibusinesstechnology-group/repo_apistock)
 
 ## Technologies Utilisées
 
