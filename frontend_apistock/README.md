@@ -34,3 +34,37 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# **README Frontend — (frontend/README.md)**
+
+```markdown
+# Frontend — APISTOCK
+
+Le frontend est développé avec Next.js et React pour offrir une interface moderne, rapide et intuitive.
+
+## Fonctionnalités
+- Tableau de bord dynamique
+- Gestion des produits
+- Gestion des mouvements de stock
+- Authentification utilisateur
+- Graphiques et statistiques
+- Alertes de stock critique
+
+## Architecture
+- `pages/` — routes
+- `components/` — UI réutilisable
+- `hooks/` — logique partagée
+- `services/` — appels API
+- `tests/` — Playwright (E2E)
+
+## Tests E2E
+Playwright simule :
+- Connexion
+- Création de produit
+- Entrée/sortie de stock
+- Scénarios critiques
+
+## Installation
+```bash
+npm install
+npm run dev
