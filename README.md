@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo-apistock.png" alt="APISTOCK Logo" width="200">
+  <img src="logoapistock.png" alt="APISTOCK Logo" width="200">
   <h2>APISTOCK</h2>
   <em>Smart Inventory & Stock Management</em>
 </p>
