@@ -1,8 +1,8 @@
 <p align="center">
   <img src="logoapistock.png" alt="APISTOCK Logo" width="200">
-  <h2>APISTOCK</h2>
-  <em>Smart Inventory & Stock Management</em>
+  <h1>APISTOCK</h1>
 </p>
+
 
 
 Plateforme professionnelle de gestion de stock — API REST, Frontend Next.js, Desktop Electron, CI/CD GitLab, Tests automatisés, Architecture modulaire et innovations IA.
