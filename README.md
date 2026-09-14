@@ -184,7 +184,7 @@ dossier_projet_gestionstock/
 
 ---
 
-## 👤 Auteur
+## Auteur
 
 **Pierre Richard Saint Louis**  
 Diplômé en **Programmation informatique (DEC)** — Collège La Cité  
