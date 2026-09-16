@@ -64,6 +64,53 @@ Le projet est organisé en plusieurs modules indépendants mais complémentaires
 
 ---
 
+## Objectif du Projet
+
+Le projet **APIStock** permet une gestion automatisée et intelligente des stocks pour les PME, entrepôts et commerces.  
+Il vise à réduire les pertes, optimiser les quantités et automatiser les opérations logistiques.
+
+---
+
+## Rôle dans l’Écosystème API Business Technology
+
+Ce projet fait partie de la suite **API Business Solutions**.  
+Il occupe le rôle suivant :
+
+- **Fonction technique :** Backend + Frontend + IA  
+- **Responsabilité :**  
+  - Suivi des stocks en temps réel  
+  - Prévisions de rupture (IA)  
+  - Automatisation des entrées/sorties  
+  - Intégration avec API Business Dashboard
+
+---
+
+## Problème résolu
+
+- Ruptures de stock fréquentes  
+- Surstockage coûteux  
+- Manque de visibilité sur les inventaires  
+- Processus manuels lents et inefficaces
+
+---
+
+## Utilisateurs ciblés
+
+- PME  
+- Entrepôts  
+- Magasins  
+- Centres de distribution  
+- Boutiques en ligne
+
+---
+
+## Intégration avec les autres services
+
+- API Business Dashboard  
+- Modules IA internes  
+- Services DevOps
+
+
 ## Documentation Fonctionnelle / API
 
 Cette section présente les fonctionnalités principales du projet ainsi que la structure générale de son API.
