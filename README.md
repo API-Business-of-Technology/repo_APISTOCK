@@ -299,7 +299,6 @@ dossier_projet_gestionstock/
 ↓             ↓
 [Desktop App]   [Pipeline CI/CD]
 
-
 ---
 
 ## Roadmap
@@ -312,6 +311,88 @@ dossier_projet_gestionstock/
 - Optimisation performance API  
 
 ---
+
+### 8. APIStock Backend — Sécurité, Installation, Roadmap
+
+```md
+## Sécurité & Confidentialité
+
+Le module **APIStock Backend** gère des données financières et boursières (prix, historiques, indicateurs, portefeuilles).  
+La sécurité et l’intégrité des données sont essentielles pour garantir la fiabilité des analyses et des décisions.
+
+### Principes de sécurité appliqués
+- Authentification par jetons sécurisés (JWT)
+- Gestion des permissions (RBAC : analyste, trader, administrateur)
+- Chiffrement des données sensibles (portefeuilles, positions, historiques privés)
+- Protection contre les attaques API (OWASP, rate limiting, anti‑replay)
+- Validation stricte des données reçues des fournisseurs externes (API marchés)
+- Journalisation des requêtes critiques (consultation, calculs, export)
+
+### Confidentialité
+- Aucune donnée réelle de clients n’est stockée dans ce dépôt
+- Les clés d’API boursières sont masquées dans les environnements de test
+- Les systèmes réels respectent les normes de protection des données financières
+
+APIStock Backend garantit une gestion sécurisée et fiable des données boursières et financières.
+```
+
+## Installation & Déploiement (Modèle)
+
+Ce dépôt représente le backend du système **APIStock**, responsable de la collecte, du traitement et de l’exposition des données boursières.
+
+### Prérequis
+- Node.js ou Python (selon l’implémentation réelle)
+- Base de données (PostgreSQL, MongoDB ou autre)
+- Git
+- Variables d’environnement pour les API de marché et la base de données
+
+### Installation (modèle)
+```bash
+git clone https://gitlab.com/api-business-technology/apistock-backend
+cd apistock-backend
+```
+
+### Déploiement (modèle)
+- Configuration des clés d’API boursières
+- Configuration de la base de données
+- Déploiement sur un serveur cloud sécurisé
+- Intégration avec APIStock Frontend
+- Mise en place des logs et monitoring
+
+Ce guide représente la structure générale du déploiement réel.
+```
+---
+
+## Roadmap (Modèle)
+
+### Q1 — Fondation
+- Architecture backend
+- Structure API
+- Documentation des endpoints
+
+### Q2 — Données boursières
+- Intégration des API de marché
+- Historisation des prix
+- Calculs d’indicateurs de base
+
+### Q3 — Analyses avancées
+- Indicateurs techniques (RSI, MACD, moyennes mobiles, etc.)
+- Portefeuilles virtuels
+- Rapports et exports
+
+### Q4 — Scalabilité
+- Optimisation des performances
+- Sécurité renforcée
+- Intégration complète APIStock
+
+### Vision 2027
+- Moteur d’analyse boursière avancé
+- IA pour la détection de patterns
+
+### Vision 2030
+- Plateforme financière intelligente
+- Outils d’aide à la décision pour investisseurs
+```
 
 ## Auteur
 
