@@ -301,6 +301,8 @@ dossier_projet_gestionstock/
 
 ---
 
+
+
 ## Roadmap
 
 - Module d’alertes pour stock critique  
@@ -392,7 +394,93 @@ Ce guide représente la structure générale du déploiement réel.
 ### Vision 2030
 - Plateforme financière intelligente
 - Outils d’aide à la décision pour investisseurs
+``
+
+---
+## Testing & Quality (Modèle)
+
+Ce dépôt inclut une structure de tests permettant de garantir la qualité du code et la stabilité du système.
+
+### Types de tests
+- Tests unitaires (Jest / Pytest)
+- Tests d’intégration
+- Tests UI (Cypress pour les frontends)
+- Tests de performance (modèle)
+- Tests de sécurité (modèle)
+
+### Qualité du code
+- Linting automatique (ESLint / Flake8)
+- Formatage automatique (Prettier / Black)
+- Analyse statique (modèle)
+
+### Couverture de tests
+Un rapport de couverture sera généré automatiquement via CI/CD.
+
+### Objectif
+Assurer un code stable, maintenable et conforme aux standards professionnels.
 ```
+
+---
+
+## CI/CD Pipeline (Modèle)
+
+Ce dépôt inclut un pipeline CI/CD permettant d’automatiser les étapes de build, test et déploiement.
+
+### Étapes du pipeline
+- Build du projet
+- Exécution des tests
+- Analyse de qualité
+- Génération des artefacts
+- Déploiement automatique (modèle)
+
+### Environnements
+- Développement
+- Staging
+- Production
+
+### Sécurité CI/CD
+- Variables protégées
+- Gestion des secrets
+- Permissions d’accès aux pipelines
+
+### Objectif
+Automatiser le cycle de développement pour garantir rapidité, fiabilité et qualité.
+```
+---
+
+## AI & Data (Modèle)
+
+Ce dépôt inclut une structure dédiée aux modules IA et aux données utilisées pour l’entraînement.
+
+### Structure des données
+- Datasets bruts
+- Datasets prétraités
+- Labels / annotations
+- Scripts de prétraitement
+
+### Modèles IA
+- Modèles de classification (modèle)
+- Modèles de détection (modèle)
+- Modèles de prédiction (modèle)
+
+### Pipeline IA
+- Prétraitement des données
+- Entraînement du modèle
+- Évaluation
+- Export du modèle
+
+### Objectif
+Fournir une base solide pour l’intégration de l’intelligence artificielle dans le système.
+```
+
+##Contact
+
+**Fondateur & CEO : Pierre Richard Saint Louis**  
+API Business Technology  
+Gatineau,Ottawa, Canada 
+apibusinesstechnology@gmail.com
+apibusinesstechnology@outlook.com
+www.apibusinesstechnology.com 
 
 ## Auteur
 
@@ -403,5 +491,10 @@ Fondateur de **API Business Technology**
 
 Professionnel passionné par l’ingénierie logicielle, le DevOps, la qualité logicielle, la sécurité applicative et l’architecture de systèmes.  
 Pierre combine une expertise technique solide avec une vision analytique issue de la finance, lui permettant de concevoir des solutions robustes, performantes et adaptées aux besoins opérationnels des entreprises.
+
+# **Pensée du CEO**
+Si, dans ton parcours de vie, rien ne semble indiquer la réussite, ne te décourage pas. Continue de croire en une force plus grande que toi et travaille sans relâche pour construire le succès que tu désires. La réussite n’apparaît pas toujours au début, mais elle finit toujours par se manifester là où la discipline et la détermination persistent, même lorsque l’espoir devient fragile.
+
+Saint Louis Piuerre Richard, CEO of API Business Technology
 
 
